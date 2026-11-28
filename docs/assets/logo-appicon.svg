@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="512" height="512">
+  <defs>
+    <!-- Soft macOS Dock shadow -->
+    <filter id="dockShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="5"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.42"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle warm coral glow behind cow -->
+    <filter id="coralGlow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <clipPath id="sqClip">
+      <rect x="16" y="16" width="224" height="224" rx="50"/>
+    </clipPath>
+
+    <!-- Clean obsidian squircle background -->
+    <linearGradient id="bgObsidian" x1="128" y1="16" x2="128" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#282124"/>
+      <stop offset="55%" stop-color="#191416"/>
+      <stop offset="100%" stop-color="#0F0C0E"/>
+    </linearGradient>
+
+    <linearGradient id="rimLight" x1="128" y1="16" x2="128" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF8F5" stop-opacity="0.28"/>
+      <stop offset="40%" stop-color="#FD8C73" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFF8F5" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Pixel shading gradients -->
+    <linearGradient id="pxWhite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2E2DC"/>
+    </linearGradient>
+
+    <linearGradient id="pxCoral" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FD8C73"/>
+      <stop offset="100%" stop-color="#EC6547"/>
+    </linearGradient>
+
+    <linearGradient id="pxCoralDeep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EC6547"/>
+      <stop offset="100%" stop-color="#C4432B"/>
+    </linearGradient>
+
+    <linearGradient id="pxPeach" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE0D8"/>
+      <stop offset="100%" stop-color="#FD8C73"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Obsidian Squircle -->
+  <g filter="url(#dockShadow)">
+    <rect x="16" y="16" width="224" height="224" rx="50" fill="url(#bgObsidian)"/>
+  </g>
+
+  <g clip-path="url(#sqClip)">
+    <!-- Soft coral ambient light behind pixel cow -->
+    <ellipse cx="128" cy="134" rx="68" ry="56" fill="#EC6547" opacity="0.24" filter="url(#coralGlow)"/>
+
+    <!-- BIG CLEAN PIXEL COW (10x8 grid, unit u=16px, cell=14.8px, rx=3.2, x0=48, y0=64) -->
+    <g>
+      <!-- Row 0 (y=64): Horns (cols 2 & 7) -->
+      <rect x="80" y="64" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="160" y="64" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+
+      <!-- Row 1 (y=80): Ears (cols 0,1 and 8,9) + Crown (cols 2..7) -->
+      <rect x="48" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+      <rect x="64" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="80" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="96" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="112" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="128" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="144" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="160" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="176" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="192" y="80" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+
+      <!-- Row 2 (y=96): Forehead (cols 2..7) -->
+      <rect x="80" y="96" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="96" y="96" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="112" y="96" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="128" y="96" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="144" y="96" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="160" y="96" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+
+      <!-- Row 3 (y=112): Eyes row (cols 2..7; eyes at col 3 & 6) -->
+      <rect x="80" y="112" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="96" y="112" width="14.8" height="14.8" rx="3.2" fill="#181214"/>
+      <rect x="99" y="115" width="4.4" height="4.4" rx="1.1" fill="#FFF8F5"/>
+      <rect x="112" y="112" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="128" y="112" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="144" y="112" width="14.8" height="14.8" rx="3.2" fill="#181214"/>
+      <rect x="147" y="115" width="4.4" height="4.4" rx="1.1" fill="#FFF8F5"/>
+      <rect x="160" y="112" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+
+      <!-- Row 4 (y=128): Cheeks (cols 2..7) -->
+      <rect x="80" y="128" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="96" y="128" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="112" y="128" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="128" y="128" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="144" y="128" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+      <rect x="160" y="128" width="14.8" height="14.8" rx="3.2" fill="url(#pxWhite)"/>
+
+      <!-- Row 5 (y=144): Snout Top (cols 1..8) -->
+      <rect x="64" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="80" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="96" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="112" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="128" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="144" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="160" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+      <rect x="176" y="144" width="14.8" height="14.8" rx="3.2" fill="url(#pxPeach)"/>
+
+      <!-- Row 6 (y=160): Snout Mid with Nostrils (cols 1..8) -->
+      <rect x="64" y="160" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="80" y="160" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="96" y="160" width="14.8" height="14.8" rx="3.2" fill="#5A1D13"/>
+      <rect x="112" y="160" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="128" y="160" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="144" y="160" width="14.8" height="14.8" rx="3.2" fill="#5A1D13"/>
+      <rect x="160" y="160" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+      <rect x="176" y="160" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoral)"/>
+
+      <!-- Row 7 (y=176): Chin (cols 2..7) -->
+      <rect x="80" y="176" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+      <rect x="96" y="176" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+      <rect x="112" y="176" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+      <rect x="128" y="176" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+      <rect x="144" y="176" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+      <rect x="160" y="176" width="14.8" height="14.8" rx="3.2" fill="url(#pxCoralDeep)"/>
+    </g>
+
+    <!-- Subtle top rim-light on squircle -->
+    <rect x="16.8" y="16.8" width="222.4" height="222.4" rx="49.2" fill="none" stroke="url(#rimLight)" stroke-width="1.4"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="240" height="200">
+  <defs>
+    <linearGradient id="pxWhite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2E2DC"/>
+    </linearGradient>
+    <linearGradient id="pxCoral" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FD8C73"/>
+      <stop offset="100%" stop-color="#EC6547"/>
+    </linearGradient>
+    <linearGradient id="pxCoralDeep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EC6547"/>
+      <stop offset="100%" stop-color="#C4432B"/>
+    </linearGradient>
+    <linearGradient id="pxPeach" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE0D8"/>
+      <stop offset="100%" stop-color="#FD8C73"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-68,-74)">
+    <rect x="92" y="76" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="152" y="76" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="68" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="80" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="92" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="104" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="116" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="128" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="140" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="152" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="164" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="176" y="88" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="92" y="100" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="104" y="100" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="116" y="100" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="128" y="100" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="140" y="100" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="152" y="100" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="92" y="112" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="104" y="112" width="11.2" height="11.2" rx="2.4" fill="#181214"/>
+    <rect x="106.2" y="114.2" width="3.4" height="3.4" rx="0.9" fill="#FFF8F5"/>
+    <rect x="116" y="112" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="128" y="112" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="140" y="112" width="11.2" height="11.2" rx="2.4" fill="#181214"/>
+    <rect x="142.2" y="114.2" width="3.4" height="3.4" rx="0.9" fill="#FFF8F5"/>
+    <rect x="152" y="112" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="92" y="124" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="104" y="124" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="116" y="124" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="128" y="124" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="140" y="124" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="152" y="124" width="11.2" height="11.2" rx="2.4" fill="url(#pxWhite)"/>
+    <rect x="80" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="92" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="104" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="116" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="128" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="140" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="152" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="164" y="136" width="11.2" height="11.2" rx="2.4" fill="url(#pxPeach)"/>
+    <rect x="80" y="148" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="92" y="148" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="104" y="148" width="11.2" height="11.2" rx="2.4" fill="#5A1D13"/>
+    <rect x="116" y="148" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="128" y="148" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="140" y="148" width="11.2" height="11.2" rx="2.4" fill="#5A1D13"/>
+    <rect x="152" y="148" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="164" y="148" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoral)"/>
+    <rect x="92" y="160" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="104" y="160" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="116" y="160" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="128" y="160" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="140" y="160" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+    <rect x="152" y="160" width="11.2" height="11.2" rx="2.4" fill="url(#pxCoralDeep)"/>
+  </g>
+</svg>

@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CDC937B9942BD48A1B72E7D /* live_chime.caf in Resources */ = {isa = PBXBuildFile; fileRef = 21D221CE7F8EE4AD47FE0C28 /* live_chime.caf */; };
+		36D522DE07753BA10E784440 /* UsageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AD789DEA56BFAE1B1FE1AF /* UsageEngine.swift */; };
+		3E01D86C06ADF02A589D8BB7 /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC839354752F07768688D6 /* UsageModels.swift */; };
+		401133B89B44C810AF235F1A /* DesktopWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F0F0036E9AD035778441D3 /* DesktopWidgetView.swift */; };
+		4210402A8EEA2F7F7429D9B6 /* hover_tick.caf in Resources */ = {isa = PBXBuildFile; fileRef = A497CAFA9B3DDC2C08246127 /* hover_tick.caf */; };
+		465A800E3F2CFE73AAFB2948 /* morph_2d.caf in Resources */ = {isa = PBXBuildFile; fileRef = 57027180F4D9CAB2BBC7999F /* morph_2d.caf */; };
+		51370EF44EF5B6418EBC603C /* click.caf in Resources */ = {isa = PBXBuildFile; fileRef = 101852E3669920F1C7A13DDE /* click.caf */; };
+		5227FDF337EB3722F9BF1617 /* DesktopPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3C3323779BE2608562C11D /* DesktopPanelController.swift */; };
+		58EA249F3060B13FB8413367 /* MilkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCD517051E701EEEC867D65 /* MilkitApp.swift */; };
+		69A8F4A652E72212FFB9ED75 /* RollupStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3541AAE14F97BF8F27A3A91 /* RollupStore.swift */; };
+		6B359C702967DEDF8F80770F /* DemoDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8AC5D9233B289E21D6557 /* DemoDataGenerator.swift */; };
+		6EF27392757C3D37878D5340 /* QuotaReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A839F0FA858500C4DE485FB /* QuotaReader.swift */; };
+		6FE22005C8913CD102534615 /* VelocityCurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BE6671FC4DB7F16A8BFC78 /* VelocityCurveView.swift */; };
+		784521E75D74514947FC6732 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAE940712A68832EC8674C5 /* AppState.swift */; };
+		78A5CF79D87A18A179291331 /* Coral3DHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ADA0053723FC5A689C22B /* Coral3DHeatmapView.swift */; };
+		7E87D20EFA1A9C7BFB70F6EF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D683F9D8EFC5AA5DCD5745F /* SettingsView.swift */; };
+		7F0CB90D81CBC7FF538AFE5E /* morph_3d.caf in Resources */ = {isa = PBXBuildFile; fileRef = AFEAD296DED3F232CA538002 /* morph_3d.caf */; };
+		86EBA38818430DDA19C5324F /* UsageParsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FAE52E4902F92CF8393B5 /* UsageParsers.swift */; };
+		AA67A666B77690261C77AA87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1425085BA69961DF60650DE /* AppDelegate.swift */; };
+		B1B0AF5E23C8A9CA4428F755 /* metric_pop.caf in Resources */ = {isa = PBXBuildFile; fileRef = D61162FF34BE6BE29A2F4560 /* metric_pop.caf */; };
+		BB854D45D6FB840B7A62A8D6 /* CodexJSONLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D5578BF536C12818A743A /* CodexJSONLParser.swift */; };
+		BDE188550E74F34757D4055F /* UsageEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16883EA010FD74D4ABB017D6 /* UsageEngineTests.swift */; };
+		CAD52FD2D1ABFF2A0F24CD26 /* PricingCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097CF535EB51F84860CB841D /* PricingCatalog.swift */; };
+		D68B9DECE973CCD529025789 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AF25EDF432AAAB37DDF042 /* DashboardView.swift */; };
+		DDFD2D53C5C918A2E9D1064C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D9F0521A3719ECF17A4538 /* Assets.xcassets */; };
+		E2C2075FF4B237A02B6B2A7B /* CoralTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAEE1CF6E686A301F28639 /* CoralTheme.swift */; };
+		E5E1FC946E2151B165EFCA55 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C68BC19A2E8A2C7D77D336A /* SoundEngine.swift */; };
+		EA605CB2ED0AC035F65B719A /* ProtobufReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2995D1F3001B16EF37E16E /* ProtobufReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D146F460754DA2548DDA6C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD22BC4DBC2D57A053785331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7582D6D726AE2457049D3D9;
+			remoteInfo = Milkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097CF535EB51F84860CB841D /* PricingCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingCatalog.swift; sourceTree = "<group>"; };
+		101852E3669920F1C7A13DDE /* click.caf */ = {isa = PBXFileReference; path = click.caf; sourceTree = "<group>"; };
+		16883EA010FD74D4ABB017D6 /* UsageEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageEngineTests.swift; sourceTree = "<group>"; };
+		1C68BC19A2E8A2C7D77D336A /* SoundEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
+		1D683F9D8EFC5AA5DCD5745F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1E5D5578BF536C12818A743A /* CodexJSONLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexJSONLParser.swift; sourceTree = "<group>"; };
+		21D221CE7F8EE4AD47FE0C28 /* live_chime.caf */ = {isa = PBXFileReference; path = live_chime.caf; sourceTree = "<group>"; };
+		321FAE52E4902F92CF8393B5 /* UsageParsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageParsers.swift; sourceTree = "<group>"; };
+		4DAE940712A68832EC8674C5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		57027180F4D9CAB2BBC7999F /* morph_2d.caf */ = {isa = PBXFileReference; path = morph_2d.caf; sourceTree = "<group>"; };
+		68D8AC5D9233B289E21D6557 /* DemoDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDataGenerator.swift; sourceTree = "<group>"; };
+		6C3C3323779BE2608562C11D /* DesktopPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopPanelController.swift; sourceTree = "<group>"; };
+		75AAEE1CF6E686A301F28639 /* CoralTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoralTheme.swift; sourceTree = "<group>"; };
+		87AF25EDF432AAAB37DDF042 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		9A839F0FA858500C4DE485FB /* QuotaReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaReader.swift; sourceTree = "<group>"; };
+		A497CAFA9B3DDC2C08246127 /* hover_tick.caf */ = {isa = PBXFileReference; path = hover_tick.caf; sourceTree = "<group>"; };
+		A5D9F0521A3719ECF17A4538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7ADA0053723FC5A689C22B /* Coral3DHeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coral3DHeatmapView.swift; sourceTree = "<group>"; };
+		AFEAD296DED3F232CA538002 /* morph_3d.caf */ = {isa = PBXFileReference; path = morph_3d.caf; sourceTree = "<group>"; };
+		B8F0F0036E9AD035778441D3 /* DesktopWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopWidgetView.swift; sourceTree = "<group>"; };
+		C0BE6671FC4DB7F16A8BFC78 /* VelocityCurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityCurveView.swift; sourceTree = "<group>"; };
+		C3541AAE14F97BF8F27A3A91 /* RollupStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollupStore.swift; sourceTree = "<group>"; };
+		C77E32C384E869FE75D41BC4 /* MilkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AD789DEA56BFAE1B1FE1AF /* UsageEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageEngine.swift; sourceTree = "<group>"; };
+		D1425085BA69961DF60650DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3AC839354752F07768688D6 /* UsageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageModels.swift; sourceTree = "<group>"; };
+		D61162FF34BE6BE29A2F4560 /* metric_pop.caf */ = {isa = PBXFileReference; path = metric_pop.caf; sourceTree = "<group>"; };
+		F0CC6A39E7E1A5B9065ADD17 /* Milkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCD517051E701EEEC867D65 /* MilkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkitApp.swift; sourceTree = "<group>"; };
+		FD2995D1F3001B16EF37E16E /* ProtobufReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05DDD6383972971C9D71A802 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4DAE940712A68832EC8674C5 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		182C6525D8398082E4149AB5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D1425085BA69961DF60650DE /* AppDelegate.swift */,
+				6C3C3323779BE2608562C11D /* DesktopPanelController.swift */,
+				FBCD517051E701EEEC867D65 /* MilkitApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		304295B0B48907D8DE8500BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA7ADA0053723FC5A689C22B /* Coral3DHeatmapView.swift */,
+				87AF25EDF432AAAB37DDF042 /* DashboardView.swift */,
+				B8F0F0036E9AD035778441D3 /* DesktopWidgetView.swift */,
+				1D683F9D8EFC5AA5DCD5745F /* SettingsView.swift */,
+				C0BE6671FC4DB7F16A8BFC78 /* VelocityCurveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B707AFDE5B1094C34925DBE = {
+			isa = PBXGroup;
+			children = (
+				93C0A4C903FEF1BF6F950154 /* Resources */,
+				EC4157511F182D4B38237242 /* Sounds */,
+				BC257A2D292A0064D779CD33 /* Sources */,
+				E6DFD16D0C2F486743794C8D /* Tests */,
+				E730BE909E95357044EC376C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE485130E7C0F1D963CF3A8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				1E5D5578BF536C12818A743A /* CodexJSONLParser.swift */,
+				68D8AC5D9233B289E21D6557 /* DemoDataGenerator.swift */,
+				097CF535EB51F84860CB841D /* PricingCatalog.swift */,
+				FD2995D1F3001B16EF37E16E /* ProtobufReader.swift */,
+				9A839F0FA858500C4DE485FB /* QuotaReader.swift */,
+				C3541AAE14F97BF8F27A3A91 /* RollupStore.swift */,
+				C8AD789DEA56BFAE1B1FE1AF /* UsageEngine.swift */,
+				321FAE52E4902F92CF8393B5 /* UsageParsers.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		8C84F596E8541034C5620E8E /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				75AAEE1CF6E686A301F28639 /* CoralTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		8F556725182AFD8317C4326E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC839354752F07768688D6 /* UsageModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93C0A4C903FEF1BF6F950154 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9F0521A3719ECF17A4538 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		945A675CCC27D29C5AC0A6CB /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1C68BC19A2E8A2C7D77D336A /* SoundEngine.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BC257A2D292A0064D779CD33 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				182C6525D8398082E4149AB5 /* App */,
+				945A675CCC27D29C5AC0A6CB /* Audio */,
+				8C84F596E8541034C5620E8E /* Design */,
+				5DE485130E7C0F1D963CF3A8 /* Engine */,
+				8F556725182AFD8317C4326E /* Models */,
+				05DDD6383972971C9D71A802 /* State */,
+				304295B0B48907D8DE8500BC /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E6DFD16D0C2F486743794C8D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16883EA010FD74D4ABB017D6 /* UsageEngineTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E730BE909E95357044EC376C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CC6A39E7E1A5B9065ADD17 /* Milkit.app */,
+				C77E32C384E869FE75D41BC4 /* MilkitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4157511F182D4B38237242 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				101852E3669920F1C7A13DDE /* click.caf */,
+				A497CAFA9B3DDC2C08246127 /* hover_tick.caf */,
+				21D221CE7F8EE4AD47FE0C28 /* live_chime.caf */,
+				D61162FF34BE6BE29A2F4560 /* metric_pop.caf */,
+				57027180F4D9CAB2BBC7999F /* morph_2d.caf */,
+				AFEAD296DED3F232CA538002 /* morph_3d.caf */,
+			);
+			name = Sounds;
+			path = Resources/Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ADA797B2B9584A29ACA1300 /* MilkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91BE5BCBB5FB680DA4C38BC /* Build configuration list for PBXNativeTarget "MilkitTests" */;
+			buildPhases = (
+				D678242370DB3240687EB693 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85C9F33E24BD8F0CF84E477A /* PBXTargetDependency */,
+			);
+			name = MilkitTests;
+			packageProductDependencies = (
+			);
+			productName = MilkitTests;
+			productReference = C77E32C384E869FE75D41BC4 /* MilkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7582D6D726AE2457049D3D9 /* Milkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB846B366C8D77D491D310 /* Build configuration list for PBXNativeTarget "Milkit" */;
+			buildPhases = (
+				54097FAB9D25C6EFA3B371A3 /* Sources */,
+				11EDF2AF62C7180792734ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Milkit;
+			packageProductDependencies = (
+			);
+			productName = Milkit;
+			productReference = F0CC6A39E7E1A5B9065ADD17 /* Milkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD22BC4DBC2D57A053785331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					9ADA797B2B9584A29ACA1300 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					A7582D6D726AE2457049D3D9 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DA3D965A52602BB5553AE64A /* Build configuration list for PBXProject "Milkit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4B707AFDE5B1094C34925DBE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E730BE909E95357044EC376C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7582D6D726AE2457049D3D9 /* Milkit */,
+				9ADA797B2B9584A29ACA1300 /* MilkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EDF2AF62C7180792734ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFD2D53C5C918A2E9D1064C /* Assets.xcassets in Resources */,
+				51370EF44EF5B6418EBC603C /* click.caf in Resources */,
+				4210402A8EEA2F7F7429D9B6 /* hover_tick.caf in Resources */,
+				0CDC937B9942BD48A1B72E7D /* live_chime.caf in Resources */,
+				B1B0AF5E23C8A9CA4428F755 /* metric_pop.caf in Resources */,
+				465A800E3F2CFE73AAFB2948 /* morph_2d.caf in Resources */,
+				7F0CB90D81CBC7FF538AFE5E /* morph_3d.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54097FAB9D25C6EFA3B371A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA67A666B77690261C77AA87 /* AppDelegate.swift in Sources */,
+				784521E75D74514947FC6732 /* AppState.swift in Sources */,
+				BB854D45D6FB840B7A62A8D6 /* CodexJSONLParser.swift in Sources */,
+				78A5CF79D87A18A179291331 /* Coral3DHeatmapView.swift in Sources */,
+				E2C2075FF4B237A02B6B2A7B /* CoralTheme.swift in Sources */,
+				D68B9DECE973CCD529025789 /* DashboardView.swift in Sources */,
+				6B359C702967DEDF8F80770F /* DemoDataGenerator.swift in Sources */,
+				5227FDF337EB3722F9BF1617 /* DesktopPanelController.swift in Sources */,
+				401133B89B44C810AF235F1A /* DesktopWidgetView.swift in Sources */,
+				58EA249F3060B13FB8413367 /* MilkitApp.swift in Sources */,
+				CAD52FD2D1ABFF2A0F24CD26 /* PricingCatalog.swift in Sources */,
+				EA605CB2ED0AC035F65B719A /* ProtobufReader.swift in Sources */,
+				6EF27392757C3D37878D5340 /* QuotaReader.swift in Sources */,
+				69A8F4A652E72212FFB9ED75 /* RollupStore.swift in Sources */,
+				7E87D20EFA1A9C7BFB70F6EF /* SettingsView.swift in Sources */,
+				E5E1FC946E2151B165EFCA55 /* SoundEngine.swift in Sources */,
+				36D522DE07753BA10E784440 /* UsageEngine.swift in Sources */,
+				3E01D86C06ADF02A589D8BB7 /* UsageModels.swift in Sources */,
+				86EBA38818430DDA19C5324F /* UsageParsers.swift in Sources */,
+				6FE22005C8913CD102534615 /* VelocityCurveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D678242370DB3240687EB693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE188550E74F34757D4055F /* UsageEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85C9F33E24BD8F0CF84E477A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7582D6D726AE2457049D3D9 /* Milkit */;
+			targetProxy = D146F460754DA2548DDA6C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01FC7F7267A309D6AE8D55DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.stankela16.milkit.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milkit.app/Contents/MacOS/Milkit";
+			};
+			name = Debug;
+		};
+		020ED7B4BAEB4B6EA462376C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.stankela16.milkit.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milkit.app/Contents/MacOS/Milkit";
+			};
+			name = Release;
+		};
+		040D7752D52C8EA5024C6F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		9267D06F0E927713C56A234E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B7B55F011B1643429FA5D729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.stankela16.milkit;
+				PRODUCT_MODULE_NAME = Milkit;
+				PRODUCT_NAME = Milkit;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7F757E46F1B68D49792E85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.stankela16.milkit;
+				PRODUCT_MODULE_NAME = Milkit;
+				PRODUCT_NAME = Milkit;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DB846B366C8D77D491D310 /* Build configuration list for PBXNativeTarget "Milkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B55F011B1643429FA5D729 /* Debug */,
+				B7F757E46F1B68D49792E85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B91BE5BCBB5FB680DA4C38BC /* Build configuration list for PBXNativeTarget "MilkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FC7F7267A309D6AE8D55DC /* Debug */,
+				020ED7B4BAEB4B6EA462376C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA3D965A52602BB5553AE64A /* Build configuration list for PBXProject "Milkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9267D06F0E927713C56A234E /* Debug */,
+				040D7752D52C8EA5024C6F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD22BC4DBC2D57A053785331 /* Project object */;
+}

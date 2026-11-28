@@ -1,0 +1,39 @@
+# macOS & Xcode
+.DS_Store
+.AppleDouble
+.LSOverride
+*.xcuserdatad/
+xcuserdata/
+DerivedData/
+.build/
+.swiftpm/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcresult
+*.xcarchive
+*.dmg
+*.pkg
+*.app
+*.xcuserstate
+LocalSigning.xcconfig
+build/
+
+# Agent / Vault local sync artifacts (never commit)
+.agents/
+.claude/
+skills-lock.json
+
+# Secrets & local runtime data
+.env
+.env.*
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
